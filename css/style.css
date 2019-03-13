@@ -1,0 +1,242 @@
+/* About Author 
+
+NAME: 	MD. Al-Amin Hossain
+e-Mail: hossainmdalamin10@gmail.com
+
+*/
+
+/*
+
+	=====Index=====
+	
+	1.	header / navigation section ;
+	2.	banner / hero section ;
+	3.	feature section ;
+	4.	newsletter section ;
+	5.	product-details section ;
+	6.	outlet section ;
+	7.	footer section ;
+
+	===============
+
+*/
+
+
+
+/* Global CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+
+
+section {
+	padding-top: 50px;
+}
+
+.img-center {
+	display: block;
+	margin:0 auto;
+}
+
+h1 {
+
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 20px 0px;
+    text-align: center;
+}
+h3 {
+    color: #ececee;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+.no-padding {
+	padding: 0;
+}
+
+ 
+
+
+/* navigation  section */
+
+.navbar {
+	background: #edeff1 !important;
+    padding: 23px 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #31353e;
+    font-size: 18px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #edeff1;
+    background: #dd4b2b;
+    padding: 7px 18px;
+    border-radius: 25px;
+}
+
+li.nav-item {
+    margin: 0px 15px;
+}
+
+/* banner section */
+
+.banner {
+	background: url(../img/banner.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.banner-heading {
+    padding-top: 286px;
+    font-weight: lighter;
+}
+
+#fusceat{
+	text-align: center;
+	color: white;
+
+}
+
+ .btn {
+    border-radius: 30px;
+    color: #612316 !important;
+    background: white;
+    padding: 9px 40px;
+    transition: 0.8s ease;
+
+}
+
+ .btn:hover {
+	background: #dd4b2b;
+	color: #fff;
+	 
+}
+
+ 
+
+/* feature section */
+
+.feature {
+	background: #edeff1;
+
+}
+
+.feature p {
+	font-size: 15px;
+
+}
+
+/* newsletter section */
+
+#Antedonec {
+	background: url(../img/newsletter.png) no-repeat;
+	background-size: cover;
+	background-position: center; 
+	position: relative;
+}
+
+.newsletter-heading{
+	text-align: center;
+	color: white;
+}
+
+form {
+	position: relative;
+}
+
+input.form-control {
+    color: white;
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid white;
+    height: 43px;
+}
+
+.signup-btn {
+    border-radius: 30px;
+    color: #612316 !important;
+    background: white;
+    padding: 9px 40px;
+    transition: 0.8s ease;
+    border-style: none;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+:placeholder {
+  color: blue;
+  font-size: 1.5em;
+}
+
+/* product review section */
+
+img.review {
+    width: 100%;
+}
+.signup-btn-1 {
+	border-radius: 30px;
+    color:  white;
+    background: #dd4b2b;
+    padding: 9px 40px;
+    transition: 0.8s ease;
+    cursor: pointer;
+
+}
+
+.signup-btn-2 {
+    border-radius: 30px;
+    color: white;
+    background: #4b4e73;
+    padding: 9px 40px;
+    transition: 0.8s ease;
+    cursor: pointer;
+
+}
+
+#review-2 {
+	margin-top: 12px;
+}
+
+
+/* outlet section */
+
+#placerat {
+    background: #d75d0e;
+    color: white;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+/* footer section */
+
+footer {
+    background: url(../img/newsletter.png) no-repeat;
+    background-size: cover;
+    padding-top: 35px;
+    height: 100px;
+     
+}
+
+
+
+/*
+
+=================END===================
+
+*/
